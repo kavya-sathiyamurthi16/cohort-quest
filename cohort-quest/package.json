@@ -1,9 +1,9 @@
 {
   "name": "cohort-quest",
   "private": true,
-  "homepage": "https://kavya-sathiyamurthi16.github.io/cohort-quest", 
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kavya-sathiyamurthi16.github.io/cohort-quest", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
