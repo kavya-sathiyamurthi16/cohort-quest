@@ -1,6 +1,7 @@
 {
   "name": "cohort-quest",
   "private": true,
+  "homepage": "https://kavya-sathiyamurthi16.github.io/cohort-quest", 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
